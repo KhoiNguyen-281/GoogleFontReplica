@@ -1,0 +1,4 @@
+.div__hidden_filter_main__container {
+  @apply h-screen rounded-tr-md rounded-br-md bg-[#28292A] ml-24 transition-all duration-300 ease-in-out;
+  transition: width 0.3s ease-in-out;
+}

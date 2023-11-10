@@ -1,0 +1,17 @@
+.font_row_main__container {
+  @apply w-full  pb-8 px-6 pt-6 border-b-[1px] border-solid border-slate-600 flex flex-col items-start h-fit gap-5 box-border overflow-hidden;
+}
+
+@container hidden_filter_main__container {
+  .font_row_main__container {
+    @apply max-w-full;
+  }
+}
+
+.font_row_main__container:hover {
+  @apply bg-[#303134] border-none rounded-lg;
+}
+
+.font_row__text_field {
+  @apply w-full whitespace-nowrap text-[40px] text-white transition-all duration-300 bg-transparent text-start font-normal not-italic;
+}

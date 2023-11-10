@@ -1,0 +1,55 @@
+.nav__mainContainer {
+  @apply h-full fixed top-0 left-0 z-20 w-24;
+  @apply flex flex-col justify-between items-center py-6 gap-2;
+  background-color: rgba(45, 46, 48, 1);
+}
+
+.nav__tabs > ul {
+  @apply flex flex-col gap-2;
+}
+
+.tab__container {
+  @apply w-20 h-14 flex flex-col items-center;
+}
+
+.tab__icon {
+  @apply w-14 h-8 flex items-center justify-center rounded-2xl mb-2;
+  @apply duration-100 ease-in-out transition-all;
+}
+
+.tab__icon > span {
+  @apply w-6 h-6 text-[#dadce0] duration-100 ease-in-out transition-all;
+}
+
+.tab__container > span {
+  @apply text-[#dadce0] text-xs leading-4 duration-100 ease-in-out transition-all;
+}
+
+.tab__container:hover > .tab__icon {
+  @apply duration-100 ease-in-out transition-all;
+  background-color: rgba(241, 243, 244, 0.04);
+}
+.tab__container:hover > .tab__icon > span {
+  @apply text-[#f1f3f4] font-medium duration-100 ease-in-out transition-all;
+}
+
+.tab__container:hover > span {
+  @apply text-[#f1f3f4] font-medium duration-100 ease-in-out transition-all;
+}
+
+.light__button {
+  @apply rounded-full w-12 h-12 p-[10px] flex items-center justify-center;
+}
+
+.light__button > span {
+  @apply text-[#9aa0a6] h-6 w-6 duration-100 ease-in-out transition-all;
+}
+
+.light__button:hover > span {
+  @apply text-[#f1f3f4] duration-100 ease-in-out transition-all;
+}
+
+.light__button:hover {
+  @apply duration-100 ease-in-out transition-all;
+  background-color: rgba(232, 234, 237, 0.04);
+}

@@ -1,0 +1,27 @@
+.div__specimen__header {
+  @apply w-full flex flex-col;
+}
+
+.div__header__title {
+  @apply text-white w-full flex flex-col gap-4 justify-start items-start;
+}
+
+.div__header__title > h1 {
+  @apply text-6xl font-bold;
+}
+
+.div__header__hero {
+  @apply mt-4 mb-8 w-full;
+}
+
+.text_sample {
+  @apply my-12 text-[57px] text-white;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  line-height: initial;
+}
+
+.font__author {
+  @apply text-sm;
+}
